@@ -32,3 +32,54 @@ My name is Demetre Kurdadze, I live in Georgia, Rustavi, 27 years old. While stu
 - Editors: VSCode, Sublime.
 
 ---
+
+### Code Example
+
+```javascript
+    function Skill () {
+    const [skill, setSkill] = useState([]);
+    const [selected, setSelected] = useState('');
+     useEffect(()=>{
+        fetch('https://bootcamp-2022.devtest.ge/api/skills')
+        .then( (response) => response.json())
+        .then(function(data){
+                setSkill(data)
+            }).catch(function(){
+                alert("error");
+            });
+    },[])
+      const addSkill = (e) => { 
+      const selectedSkill = e.target.value;
+      setSelected(selectedSkill);
+    }
+    return (
+        <div className="skillForm">
+                <select name="custom-select" id="skillChange" placeholder="Skills" onChange={addSkill}>
+                    {skill? skill.map((item, index ) => {
+                        return (
+                            <option key={item.id} value={item.title}>{item.title}</option>
+                        )
+                    }) : null
+                  }
+                </select>
+        </div>
+    )
+```
+
+### Education
+---
+- Geolab Front end courses(2021)-Web Programming Front End (HTML, CSS) 
+  <a href="https://drive.google.com/file/d/1k-mkrjLDl_8BUTUPaJRK-cYx_LF1kX4h/view">Sertificate</a>
+- Geolab Javascript Course(2021-2022) -JavaScript / React (still on it)
+- School of Business, Bachelor's Programme (Major)Business  Administration
+  * (Management, Banking  and  Finance, Tourism, Sport Management) (Major Programmes)
+  * Bachelor's Programme (Minor)- (Free Component(Structured Programming, Web programing)
+  * Direction: Banking and Finance! (2013-2017)
+- Ilia State University(Master)
+  * Master's Programme - Business  Administration (Management, Banking  and  Finance, Tourism  Management)
+  * Direction: Management (2018-2021)
+
+---
+### Experience 
+* Mini projects for apliactions
+---
