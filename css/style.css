@@ -44,11 +44,10 @@ h1{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: rgb(13, 239, 96);
+    background-color: rgb(219 224 221);
 }
 .about-me-content{
     max-width: 800px;
-    background-color: #F5D545;;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -143,4 +142,16 @@ pre{
 #exp-heading {
     font-size: 1.5rem;
     padding: 20px;
+}
+.contact-logos{
+    width: 20px;
+    color: blue;
+}
+.contact-box{
+    display: flex;
+}
+.contact-box a{
+padding-left: 10px;
+color: rgb(19, 41, 233);
+font-size: 1.5rem;
 }
