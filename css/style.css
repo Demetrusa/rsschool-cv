@@ -106,3 +106,18 @@ pre{
 .code-example span {
     font-size: 1.5rem;
 }
+.yellow{
+    color: rgb(141, 141, 7);
+}
+.brown{
+    color: brown;
+}
+#secondCodeLine{
+    margin-left:20px;
+}
+#thirdCodeLine {
+    margin-left: 40px;
+}
+#fourthCodeLine{
+    margin-left: 20px;
+}

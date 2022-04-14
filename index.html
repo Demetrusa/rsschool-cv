@@ -94,12 +94,11 @@
                 <pre>
                     <code>
                       <span><span class="for-style">for</span> (<span class="blue"> let i</span> = <span class="code-number">0;</span> <span class="blue">i</span> < </span class="code-number">3</span>; <span class="blue">i</span>++) { </span></br>
-                      <span> <span class="for-style">for</span> (<span class="blue">let j</span> = <span class="code-number">0</span>; <span class="blue">j</span> < <span class="code-number">3</span>; <span class="blue">j</span>++) {</span></br>
-                      <span> let input = prompt(`Value at coords (${i},${j})`, '');</span></br>
-                      <span>if (!input) break outer;</span></br> 
+                      <span id="secondCodeLine"> <span class="for-style">for</span> (<span class="blue">let j</span> = <span class="code-number">0</span>; <span class="blue">j</span> < <span class="code-number">3</span>; <span class="blue">j</span>++) {</span></br>
+                      <span id="thirdCodeLine"> <span class="blue">let input</span> = <span class="yellow">prompt</span> (<span class="brown">`Value at coords (</span> <span class="blue">${i}</span>,<span class="blue">${j}</span><span class="brown">)`</span>, <span class="brown">''</span>);</span></br>
+                      <span id="fourthCodeLine"> }</span></br> 
                       <span> }</span></br> 
-                      <span> }</span></br> 
-                      <span>alert('Done!');</span></br> 
+                      <span> <span class="yellow">alert</span>(<span class="brown">'Done!'</span>);</span></br> 
                     </code>
                 </pre>
             </div>
