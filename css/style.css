@@ -121,3 +121,21 @@ pre{
 #fourthCodeLine{
     margin-left: 20px;
 }
+/* language  */
+
+.language-wrap{
+    margin-top: 20px;
+    font-size: 1.5rem;
+}
+.language-wrap h3 {
+    padding: 10px;
+}
+.protf-img{
+    width: 390px;
+}
+.projects {
+   display: grid;
+   grid-template-columns: repeat(2, 390px);
+   gap: 10px;
+   padding: 20px 5px;
+}
