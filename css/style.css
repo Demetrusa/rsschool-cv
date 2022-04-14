@@ -54,7 +54,7 @@ ul li{
     flex-direction: column;
     border-radius: 5px;
 }
-#aboutMe-heading {
+.content-heading {
     font-size: 1.5em;
     padding: 20px;
 }
