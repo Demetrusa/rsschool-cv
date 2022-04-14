@@ -5,3 +5,10 @@
     align-items: center;
     background-color: rgb(239, 239, 13);
 }
+nav{
+    max-width: 1200px;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+}
