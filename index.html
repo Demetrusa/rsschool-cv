@@ -9,35 +9,38 @@
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
-
-      <div class="main-wrapper">
-        <div class="heading-wrap">
-          <img src="./img/mypicture.jpg" alt="show-image" id="profilePicture" />
-          <h1 id="CharacterName">Demetre Kurdadze</h1>
-        </div>
-        <div class="navigation">
-          <nav>
-            <ul>
-              <li><a href="#about">About Me</a></li>
-              <li><a href="#educate">Education</a></li>
-              <li><a href="#skill">Skills</a></li>
-              <li><a href="#code-example">Code Example</a></li>
-              <li><a href="#language">Language</a></li>
-              <li><a href="#portfolio">Portfolio</a></li>
-              <li><a href="#experiance">Experiance</a></li>
-              <li><a href="#contact">Contact</a></li>
-            </ul>
-          </nav>
-        </div>
-      </div>
-    </header>
     <main>
+      <header>
+        <div class="main-wrapper">
+          <div class="heading-wrap">
+            <img
+              src="./img/mypicture.jpg"
+              alt="show-image"
+              id="profilePicture"
+            />
+            <h1 id="CharacterName">Demetre Kurdadze</h1>
+          </div>
+          <div class="navigation">
+            <nav>
+              <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#educate">Education</a></li>
+                <li><a href="#skill">Skills</a></li>
+                <li><a href="#code-example">Code Example</a></li>
+                <li><a href="#language">Language</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#experiance">Experiance</a></li>
+                <li><a href="#Contact">Contact</a></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </header>
       <div class="content-wrap">
         <div class="about-me-content">
           <div class="about-me" id="about">
             <h2 class="content-heading">About Me</h2>
-            <div class="line-1">      
-            </div>
+            <div class="line-1"></div>
             <p class="text">
               My name is Demetre Kurdadze, I live in Georgia, Rustavi, 27 years
               old. While studying at university, I became interested in learning
@@ -49,132 +52,186 @@
           </div>
           <div class="education" id="educate">
             <h2 class="content-heading">Education</h2>
-            <div class="line-1">
+            <div class="line-1"></div>
+            <div class="educatin-text">
+              <h3>
+                - Geolab Front end courses(2021)-Web Programming Front End
+                (HTML, CSS)
+                <a
+                  href="https://drive.google.com/file/d/1k-mkrjLDl_8BUTUPaJRK-cYx_LF1kX4h/view"
+                  >Sertificate</a
+                >
+              </h3>
+              <h3>
+                - Geolab Javascript Course(2021-2022) -JavaScript / React (still
+                on it)
+              </h3>
+              <h3>
+                - School of Business, Bachelor’s Programme (Major)Business
+                Administration
+              </h3>
+              <h3>
+                - Master’s Programme - Business Administration (Management,
+                Banking and Finance, Tourism Management)
+              </h3>
             </div>
-              <div class="educatin-text">
-                <h3>
-                  - Geolab Front end courses(2021)-Web Programming Front End
-                  (HTML, CSS) <a href="https://drive.google.com/file/d/1k-mkrjLDl_8BUTUPaJRK-cYx_LF1kX4h/view">Sertificate</a>
-                </h3>
-                <h3>
-                  - Geolab Javascript Course(2021-2022) -JavaScript / React
-                  (still on it)
-                </h3>
-                <h3>
-                  - School of Business, Bachelor’s Programme (Major)Business
-                  Administration
-                </h3>
-                <h3>
-                  - Master’s Programme - Business Administration (Management,
-                  Banking and Finance, Tourism Management)
-                </h3>
-              </div>
+          </div>
+          <div class="skills" id="skill">
+            <h2 class="content-heading">Skills</h2>
+            <div class="line-1"></div>
+            <div class="skill-list">
+              <ul>
+                <li>Html5</li>
+                <li>CSS</li>
+                <li>Bootstrap</li>
+                <li>Responsive Design</li>
+                <li>Javascript</li>
+                <li>React Basic</li>
+                <li>Git Version Control</li>
+                <li>Figma(for web development)</li>
+                <li>Editors: VSCode, Sublime.</li>
+              </ul>
             </div>
-            <div class="skills" id="skill">
-                <h2 class="content-heading">Skills</h2>
-                <div class="line-1">
-                </div>
-                <div class="skill-list">
-                    <ul>
-                        <li>Html5</li>
-                        <li>CSS</li>
-                        <li>Bootstrap</li>
-                        <li>Responsive Design</li>
-                        <li>Javascript</li>
-                        <li>React Basic</li>
-                        <li>Git Version Control</li>
-                        <li>Figma(for web development)</li>
-                        <li>Editors: VSCode, Sublime.</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="code" id="code-example">
-                <h2 class="content-heading">Code Example</h2>
-                <div class="line-1"></div>
+          </div>
+          <div class="code" id="code-example">
+            <h2 class="content-heading">Code Example</h2>
+            <div class="line-1"></div>
             <div class="code-example">
-                <pre>
+              <pre>
                     <code>
-                      <span><span class="for-style">for</span> (<span class="blue"> let i</span> = <span class="code-number">0;</span> <span class="blue">i</span> < </span class="code-number">3</span>; <span class="blue">i</span>++) { </span></br>
-                      <span id="secondCodeLine"> <span class="for-style">for</span> (<span class="blue">let j</span> = <span class="code-number">0</span>; <span class="blue">j</span> < <span class="code-number">3</span>; <span class="blue">j</span>++) {</span></br>
-                      <span id="thirdCodeLine"> <span class="blue">let input</span> = <span class="yellow">prompt</span> (<span class="brown">`Value at coords (</span> <span class="blue">${i}</span>,<span class="blue">${j}</span><span class="brown">)`</span>, <span class="brown">''</span>);</span></br>
-                      <span id="fourthCodeLine"> }</span></br> 
-                      <span> }</span></br> 
-                      <span> <span class="yellow">alert</span>(<span class="brown">'Done!'</span>);</span></br> 
+                    for (let i = 0; i &lt;&nbsp;3; i++) {
+                        for (let j = 0; j &lt;&nbsp;3; j++) {
+                          let input = prompt(`Value at coords (${i},${j})`, '');
+                        }
+                      }
+                      alert('Done!');
                     </code>
                 </pre>
             </div>
             <div class="languages" id="language">
-                <h2 class="content-heading">languages</h2>
-                <div class="line-1"></div>
-                <div class="language-wrap">
-                    <h3>- Georgian - native</h3>
-                    <h3>- English - B2+</h3>
-                    <h3>- Russian - fluent</h3>
-                </div>
+              <h2 class="content-heading">languages</h2>
+              <div class="line-1"></div>
+              <div class="language-wrap">
+                <h3>- Georgian - native</h3>
+                <h3>- English - B2+</h3>
+                <h3>- Russian - fluent</h3>
+              </div>
             </div>
             <div class="Portfolio" id="portfolio">
-                <h2 class="content-heading">Portfolio</h2>
-                <div class="line-1"></div>
-                <div class="projects">
-                    <div class="project">
-                        <a href="https://demetrusa.github.io/personal-project/">
-                            <img src="./img/Best Hotel Website Designs.jpg" alt="hotel" class="protf-img">
-                        </a>
-                    </div>
-                    <div class="project">
-                        <a href="https://demetrusa.github.io/finaluri/">
-                            <img src="./img/geolabproject.png" alt="hedi" class="protf-img">
-                        </a>
-                    </div>
-                    <div class="project">
-                        <a href="https://demetrusa.github.io/https-github.com-new/">
-                            <img src="./img/animation.png" alt="aniamtion" class="protf-img">
-                        </a>
-                    </div>
-                    <div class="project">
-                        <a href="https://github.com/Demetrusa/MyResume">
-                            <img src="./img/Bootstrap.jpg" alt="bootstrap" class="protf-img">
-                        </a>
-                    </div>
+              <h2 class="content-heading">Portfolio</h2>
+              <div class="line-1"></div>
+              <div class="projects">
+                <div class="project">
+                  <a href="https://demetrusa.github.io/personal-project/">
+                    <img src="./img/hotel.jpg" alt="hotel" class="protf-img" />
+                  </a>
                 </div>
+                <div class="project">
+                  <a href="https://demetrusa.github.io/finaluri/">
+                    <img
+                      src="./img/geolabproject.png"
+                      alt="hedi"
+                      class="protf-img"
+                    />
+                  </a>
+                </div>
+                <div class="project">
+                  <a href="https://demetrusa.github.io/https-github.com-new/">
+                    <img
+                      src="./img/animation.png"
+                      alt="aniamtion"
+                      class="protf-img"
+                    />
+                  </a>
+                </div>
+                <div class="project">
+                  <a href="https://github.com/Demetrusa/MyResume">
+                    <img
+                      src="./img/Bootstrap.jpg"
+                      alt="bootstrap"
+                      class="protf-img"
+                    />
+                  </a>
+                </div>
+              </div>
             </div>
             <div class="experience-wrap" id="experiance">
-                <h2 class="content-heading">experiance</h2>
-                <div class="line-1"></div>
-                <h3 id="exp-heading">- Working on my own projects</h3>
+              <h2 class="content-heading">experiance</h2>
+              <div class="line-1"></div>
+              <h3 id="exp-heading">- Working on my own projects</h3>
             </div>
             <div class="contact" id="contact">
-                <h2 class="content-heading">Contact</h2>
-                <div class="line-1"></div>
-                <div class="contact-box">
-                    <img src="./img/envelope-regular.svg" alt="email" class="contact-logos"><a href="mailto:Demetrekurdadze@gmail.com" title="Demetrekurdadze@gmail.com" target="_blank">Demetrekurdadze@gmail.com</a>
-                </div>
-                <div class="contact-box">
-                    <img src="./img/facebook-brands.svg" alt="facebok" class="contact-logos"><a href="https://www.facebook.com/Qurdadzeee/" title="https://www.facebook.com/Qurdadzeee/" target="_blank">Facebook</a>
-                </div>
-                <div class="contact-box">
-                    <img src="./img/linkedin-brands.svg" alt="linkeden" class="contact-logos"><a href="https://www.linkedin.com/in/demetre-kurdadze-b62980198/" title="https://www.linkedin.com/in/demetre-kurdadze-b62980198/" target="_blank">Linkedin</a>
-                </div>
-            </div>
+              <h2 class="content-heading">Contact</h2>
+              <div class="line-1"></div>
+              <div class="contact-box">
+                <img
+                  src="./img/envelope-regular.svg"
+                  alt="email"
+                  class="contact-logos"
+                /><a
+                  href="mailto:Demetrekurdadze@gmail.com"
+                  title="Demetrekurdadze@gmail.com"
+                  target="_blank"
+                  >Demetrekurdadze@gmail.com</a
+                >
+              </div>
+              <div class="contact-box">
+                <img
+                  src="./img/facebook-brands.svg"
+                  alt="facebok"
+                  class="contact-logos"
+                /><a
+                  href="https://www.facebook.com/Qurdadzeee/"
+                  title="https://www.facebook.com/Qurdadzeee/"
+                  target="_blank"
+                  >Facebook</a
+                >
+              </div>
+              <div class="contact-box">
+                <img
+                  src="./img/linkedin-brands.svg"
+                  alt="linkeden"
+                  class="contact-logos"
+                /><a
+                  href="https://www.linkedin.com/in/demetre-kurdadze-b62980198/"
+                  title="https://www.linkedin.com/in/demetre-kurdadze-b62980198/"
+                  target="_blank"
+                  >Linkedin</a
+                >
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </main>
-    <footer>
+      <footer>
         <div id="footer">
-            <div>
-                <a href=""><img src="./img/githublogo.png" alt="githublogo" class="footer-logo"></a>
-            </div>
-            <div><a href="#CharacterName"><img src="./img/icons8-home.svg" alt="home" class="footer-logo"></a>
-            </div>
-            <div>
-                <h2>April 2022</h2>
-            </div>
-            <div>
-                <a href="https://rs.school/js-en/"><img src="./img/rschool.jpg" alt="rschool logo" id="rschool-logo" class="footer-logo"></a>
-            </div>
+          <div>
+            <a href="https://demetrusa.github.io/rsschool-cv/"
+              ><img
+                src="./img/githublogo.png"
+                alt="githublogo"
+                class="footer-logo"
+            /></a>
+          </div>
+          <div>
+            <a href="#CharacterName"
+              ><img src="./img/icons8-home.svg" alt="home" class="footer-logo"
+            /></a>
+          </div>
+          <div>
+            <h2>April 2022</h2>
+          </div>
+          <div>
+            <a href="https://rs.school/js-en/"
+              ><img
+                src="./img/rschool.jpg"
+                alt="rschool logo"
+                id="rschool-logo"
+                class="footer-logo"
+            /></a>
+          </div>
         </div>
-    </footer>
+      </footer>
+    </main>
   </body>
 </html>

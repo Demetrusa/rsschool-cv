@@ -97,34 +97,8 @@ pre{
     border-radius: 25px;
     background-color: rgb(239, 239, 247);
     margin-top: 20px;
+    line-height: 30px;
 
-}
-.for-style{
-    color: purple;
-}
-.blue{
-    color: blue;
-}
-.code-number{
-    color: green;
-}
-.code-example span {
-    font-size: 1.5rem;
-}
-.yellow{
-    color: rgb(141, 141, 7);
-}
-.brown{
-    color: brown;
-}
-#secondCodeLine{
-    margin-left:20px;
-}
-#thirdCodeLine {
-    margin-left: 40px;
-}
-#fourthCodeLine{
-    margin-left: 20px;
 }
 /* language  */
 
