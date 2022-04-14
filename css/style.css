@@ -47,7 +47,7 @@ h1{
     background-color: rgb(13, 239, 96);
 }
 .about-me-content{
-    width: 800px;
+    max-width: 800px;
     background-color: #F5D545;;
     display: flex;
     justify-content: center;
@@ -72,6 +72,15 @@ h1{
 }
 .educatin-text{
     padding: 20px;
+    font-weight: 400;
+    line-height: 25px;
+}
+.skill-list ul{
+    list-style: circle;
+    font-size: 1.2em;
+}
+.skill-list{
+    padding-left: 45px;
     font-weight: 400;
     line-height: 25px;
 }
