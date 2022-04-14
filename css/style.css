@@ -3,10 +3,23 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: rgb(239, 239, 13);
+    background-color: rgb(181, 181, 80);
 }
 h1{
     font-size: 62px;
+    padding-left: 10px;
+}
+#profilePicture{
+    width: 10em;
+    height: 10em;
+    border-radius: 100%;
+    border: 3px solid rgb(165, 220, 13);
+}
+.heading-wrap{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-top: 50px;
 }
 
 nav{
@@ -18,4 +31,13 @@ ul{
 }
 ul li{
     padding: 20px;
+}
+
+/*  */
+.content-wrap{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(13, 239, 96);
 }
