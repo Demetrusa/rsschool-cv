@@ -37,6 +37,10 @@ h1{
     font-weight: bold;
     font-size: 1.25rem;
 }
+.navigation a:hover{
+    background-color: rgb(5, 52, 52);
+
+}
 
 /*  */
 .content-wrap{
@@ -151,6 +155,7 @@ pre{
 }
 .contact-box{
     display: flex;
+    margin: 20px 10px;
 }
 .contact-box a{
 padding-left: 10px;
@@ -159,3 +164,20 @@ font-size: 1.5rem;
 }
 /* footer */
 
+#footer{
+    width: 100%;
+    background-color: black;
+    color: #FFFFFF;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+.footer-logo{
+    width: 70px;
+}
+#footer h2{
+    font-size: 2rem;
+}
+#rschool-logo{
+    border-radius: 50%;
+}
